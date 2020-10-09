@@ -1,0 +1,6 @@
+[requires]
+poco/1.9.4
+catch2/2.11.0
+
+[generators]
+cmake
