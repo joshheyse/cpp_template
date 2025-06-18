@@ -4,9 +4,6 @@ project(MD5Encrypter)
 SET(CMAKE_CXX_STANDARD 17)
 SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup(TARGETS)
-
 enable_testing()
 
 find_program(CCACHE_PROGRAM ccache)

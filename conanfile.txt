@@ -1,6 +1,6 @@
 [requires]
-poco/1.9.4
-catch2/2.11.0
+catch2/3.8.1
 
 [generators]
-cmake
+CMakeDeps
+CMakeToolchain
